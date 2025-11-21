@@ -1,0 +1,13 @@
+.diary-box {
+  border: 1px solid gray;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+}
+
+.form-box {
+  border: 1px solid lightgray;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}

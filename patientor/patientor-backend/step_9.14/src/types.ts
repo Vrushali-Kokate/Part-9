@@ -19,5 +19,10 @@ export interface Patient {
   occupation: string;
 }
 
+
+
+export interface Entry {}
+
+
 // Type for public patient data (exclude ssn)
 export type NonSensitivePatient = Omit<Patient, "ssn">;
