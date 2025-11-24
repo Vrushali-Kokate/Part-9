@@ -1,0 +1,17 @@
+{
+  "env": {
+    "node": true,
+    "es2020": true
+  },
+  "extends": ["eslint:recommended", "plugin:import/errors", "plugin:import/warnings"],
+  "parserOptions": {
+    "ecmaVersion": 11,
+    "sourceType": "module"
+  },
+  "rules": {
+    "indent": ["error", 2],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "no-console": 0
+  }
+}
